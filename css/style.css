@@ -1,0 +1,19 @@
+.home {
+    height: 840px;
+    background-image: url(../images/bg-hero-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container-home {
+    padding-top: 20vh;
+}
+
+#header-home {
+    margin-top: 15vh;
+}
+
+#img-home {
+    max-height: 500px;
+    min-width: 170px;
+}
