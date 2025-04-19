@@ -22,3 +22,9 @@
         margin-top: 10vh;
     }
 }
+
+@media (min-height: 0px) and (max-width: 400px) {
+    #container-home {
+        padding-top: 10vh;
+    }
+}
