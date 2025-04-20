@@ -4,7 +4,7 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 200px) {
+@media (min-width: 100.1px) and (max-width: 200px) {
     #img-home {
         min-width: 100px;
         max-width: 125px;
@@ -26,5 +26,15 @@
 @media (min-height: 0px) and (max-width: 400px) {
     #container-home {
         padding-top: 10vh;
+    }
+}
+
+@media (min-height: 0px) and (max-width: 160.1) {
+    #navbar-brand {
+        font-size: 15px;
+    }
+
+    #img-home {
+        max-width: 100px;
     }
 }
