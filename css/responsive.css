@@ -27,6 +27,11 @@
     #container-home {
         padding-top: 10vh;
     }
+
+    .pricing-table {
+        width: 80vw;
+        /* height: 560px; */
+    }
 }
 
 @media (min-height: 0px) and (max-width: 160.1) {
@@ -40,5 +45,17 @@
 
     .header-features-2 {
         font-size: 24px;
+    }
+}
+
+@media (min-height: 992px) {
+    #pricing-table-1 {
+        width: 80vw;
+        transform: translateX(70px);
+    }
+
+    #pricing-table-2 {
+        width: 80vw;
+        transform: translateY(70px);
     }
 }

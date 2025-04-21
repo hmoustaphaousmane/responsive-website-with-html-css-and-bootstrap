@@ -67,3 +67,26 @@ body {
     padding: 100px 0;
     background-color: #383340;
 }
+
+/* .pricing {
+    background-image: url("../images/pattern_1.svg");
+} */
+
+.pricing-table {
+    width: 300px;
+    height: 560px;
+}
+
+#pricing-table-1 {
+    background-image: url("../images/pricing-pattern-grayscale.svg");
+    box-shadow: 0 6px 10px 3px black;
+}
+
+#pricing-table-2 {
+    background-image: url("../images/pricing-pattern.svg");
+    box-shadow: 0 10px 6px 3px black;
+}
+
+.pricing-head {
+    padding-top: 42%;
+}
