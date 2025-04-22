@@ -90,3 +90,17 @@ body {
 .pricing-head {
     padding-top: 42%;
 }
+
+.customer-service {
+    color: white;
+    padding: 50px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.356), rgba(255, 255, 0, 0.356)), url("../images/bg-testimonials.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#btn-customer {
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+}
