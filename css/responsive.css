@@ -2,12 +2,18 @@
     #container-home {
         padding-top: 0vh;
     }
+
+    #img-home {
+        min-width: 50vw;
+        max-width: 50vw;
+        /* max-height: 300px; */
+    }
 }
 
 @media (min-width: 100.1px) and (max-width: 200px) {
     #img-home {
-        min-width: 100px;
-        max-width: 125px;
+        min-width: 80vw;
+        max-width: 80vw;
     }
 }
 
@@ -57,5 +63,13 @@
     #pricing-table-2 {
         width: 80vw;
         transform: translateY(70px);
+    }
+
+    .navbar-floating {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 0 50px 0;
     }
 }

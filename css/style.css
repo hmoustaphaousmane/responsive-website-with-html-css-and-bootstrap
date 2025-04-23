@@ -23,13 +23,13 @@ body {
     min-width: 170px;
 }
 
-.navbar-floating {
+/* .navbar-floating {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 0 50px 0;
-}
+} */
 
 #btn-nav {
     padding: 10px 15px;
@@ -39,7 +39,8 @@ body {
     border-radius: 20px;
 }
 
-#btn-nav:hover {
+#btn-nav:hover,
+#btn-submit:hover {
     box-shadow: 0 4px 16px 1px darkblue;
 }
 
@@ -103,4 +104,17 @@ body {
     color: white;
     border: 2px solid white;
     border-radius: 15px;
+}
+
+#btn-submit {
+    color: white;
+    padding: 5px 35px;
+    background-color: rgba(25, 25, 179);
+    border-radius: 15px;
+}
+
+.footer {
+    color: white;
+    background-color: #383340;
+    padding: 50px 0;
 }
