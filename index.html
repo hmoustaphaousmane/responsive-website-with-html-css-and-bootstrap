@@ -9,6 +9,8 @@
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate1.css">
+    <link rel="stylesheet" href="css/animate2.css">
 
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
@@ -56,11 +58,13 @@
         <div class="container" id="container-home">
             <div class="row">
                 <div class="col">
-                    <h1 class="display-3 mb-4" id="header-home">Manage Your Finance <br>easier</h1>
-                    <p>App has features to view and manage <br>our finances, such as transfert, and statistics</p>
+                    <h1 class="display-3 mb-4" id="header-home" data-animate-in="up">Manage Your Finance <br>easier</h1>
+                    <p data-animate-in="left">App has features to view and manage <br>our finances, such as transfert,
+                        and statistics</p>
                 </div>
                 <div class="col">
-                    <img src="images/app-preview-1.png" alt="app preview" class="img-fluid" id="img-home">
+                    <img src="images/app-preview-1.png" alt="app preview" class="img-fluid" id="img-home"
+                        data-animation="zoomIn">
                 </div>
             </div>
         </div>
@@ -69,20 +73,23 @@
     <section class="clients">
         <div class="row text-center pt-5">
             <div class="col mb-5">
-                <img src="images/clients/alter_sport.png" class="img-fluid"
-                    style="max-width: 100px; max-height: 100px;">
+                <img src="images/clients/alter_sport.png" class="img-fluid" style="max-width: 100px; max-height: 100px;"
+                    data-animation="zoomReverseIn">
             </div>
             <div class="col mb-5">
                 <img src="images/clients/cleaning_service.png" class="img-fluid"
-                    style="max-width: 100px; max-height: 100px;">
+                    style="max-width: 100px; max-height: 100px;" data-animation="zoomReverseIn"
+                    data-animation-delay="300ms">
             </div>
             <div class="col mb-5">
                 <img src="images/clients/creative_photo.png" class="img-fluid"
-                    style="max-width: 100px; max-height: 100px;">
+                    style="max-width: 100px; max-height: 100px;" data-animation="zoomReverseIn"
+                    data-animation-delay="600ms">
             </div>
             <div class="col mb-5">
                 <img src="images/clients/net_sport_tv.png" class="img-fluid"
-                    style="max-width: 100px; max-height: 100px;">
+                    style="max-width: 100px; max-height: 100px;" data-animation="zoomReverseIn"
+                    data-animation-delay="900ms">
             </div>
         </div>
     </section>
@@ -91,9 +98,10 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <img src="images/app-preview-2.png" alt="app preview" class="img-fluid" id="img-home">
+                    <img src="images/app-preview-2.png" alt="app preview" class="img-fluid" id="img-home"
+                        data-animation="flipInY" data-animation-delay="0.1s">
                 </div>
-                <div class="col text-left">
+                <div class="col text-left" data-animate-in="up">
                     <span>
                         <i class="fa-solid fa-cubes" style="background-color: orange;" id="fa1"></i>
                         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -117,7 +125,7 @@
     <section class="features-2 mt-5">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col" data-animate-in="left">
                     <h1 class="display-5" id="header-features-2">Ecommerce buisiness <br>operate easily.</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -127,7 +135,7 @@
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="col text-center">
+                <div class="col text-center" data-animate-in="right">
                     <img src="images/app-preview-3.png" alt="app preview" class="img-fluid" id="img-home">
                 </div>
             </div>
@@ -138,34 +146,34 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="display-5" style="color: white;">Why choose Us</h1>
+                    <h1 class="display-5" style="color: white;" data-animate-in="down">Why choose Us</h1>
                 </div>
             </div>
         </div>
         <div class="container mt-4" style="color: white;">
             <div class="row">
-                <div class="col text-left">
+                <div class="col text-left" data-animation="zoomReverseIn" data-animation-delay="300ms">
                     <i class="fa-solid fa-rocket mb-2" style="color: blue; font-size: 50px;"></i>
                     <h3 class="mb-4">Very fast</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-                <div class="col text-left">
+                <div class="col text-left" data-animation="zoomReverseIn" data-animation-delay="400ms">
                     <i class="fa-solid fa-user-check mb-2" style="color: red; font-size: 50px;"></i>
                     <h3 class="mb-4">Very fast</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-                <div class="col text-left">
+                <div class="col text-left" data-animation="zoomReverseIn" data-animation-delay="500ms">
                     <i class="fa-solid fa-ad mb-2" style="color: skyblue; font-size: 50px;"></i>
                     <h3 class="mb-4">Very fast</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-                <div class="col text-left">
+                <div class="col text-left" data-animation="zoomReverseIn" data-animation-delay="600ms">
                     <i class="fa-solid fa-money-bill-wave mb-2" style="color: orange; font-size: 50px;"></i>
                     <h3 class="mb-4">Very fast</h3>
                     <p>
@@ -176,14 +184,14 @@
 
             <div class="container mt-4 text-center" style="color: white;">
                 <div class="row">
-                    <div class="col text-left">
+                    <div class="col text-left" data-animation="zoomReverseIn" data-animation-delay="300ms">
                         <i class="fa-solid fa-phone mb-2" style="color: purple; font-size: 50px;"></i>
                         <h3 class="mb-4">Very fast</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                     </div>
-                    <div class="col text-left">
+                    <div class="col text-left" data-animation="zoomReverseIn" data-animation-delay="400ms">
                         <i class="fa-solid fa-tty mb-2" style="color: lightgreen; font-size: 50px;"></i>
                         <h3 class="mb-4">Very fast</h3>
                         <p>
@@ -197,7 +205,7 @@
     <section class="pricing pt-5" id="pricing" style="background-image: url(images/pattern_1.svg);">
         <div class="container">
             <div class="row">
-                <div class="col mb-5 mb-lg-0">
+                <div class="col mb-5 mb-lg-0" data-animate-in="left">
                     <h1 class="display-4">Pricing Plan</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
@@ -208,7 +216,7 @@
                         velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>
                 </div>
-                <div class="col text-center mb-5">
+                <div class="col text-center mb-5" data-animate-in="up">
                     <div class="pricing-table" id="pricing-table-1">
                         <div class="pricing-item">
                             <div class="pricing-head" style="margin-left: -10%;">
@@ -227,7 +235,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col text-center mb-5">
+                <div class="col text-center mb-5" data-animate-in="up">
                     <div class="pricing-table" id="pricing-table-2">
                         <div class="pricing-item">
                             <div class="pricing-head">
@@ -268,7 +276,7 @@
     <section class="customer-service" id="contact-us">
         <div class="container">
             <div class="row" style="margin-top: 10%;">
-                <div class="col mb-5">
+                <div class="col mb-5" data-animate-in="up">
                     <h1>Costomer Service</h1>
                     <p class="mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -287,11 +295,11 @@
     <section class="contact mt-5 pt-5 mb-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col text-center">
+                <div class="col text-center"  data-animate-in="left">
                     <img src="images/illustration_contact.svg" alt="contact" class="img-fluid">
                 </div>
 
-                <div class="col">
+                <div class="col"  data-animate-in="right">
                     <form action="">
                         <div class="mb-3">
                             <label for="full-name" class="form-label">Full Name:</label>
@@ -332,11 +340,14 @@
         </div>
     </section>
 
-    <script src="js/script.js"></script>
+    // make sure to include jQuery before the script.js
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animate1.js"></script>
+    <script src="js/animate2.js"></script>
 </body>
 
 </html>
